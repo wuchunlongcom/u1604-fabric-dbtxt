@@ -1,0 +1,16 @@
+hosts = 47.100.52.110
+user = root
+password = qazx@123456
+
+uuid = 5b3794134d48
+project_name = ProjectName
+gunicorn_port = 8000
+python_ver = 3
+domain = www.wuchunlong.cn
+
+git_name = wuchunlong
+git_user = Django-Rest-Framework
+git_email = wcl6005%40163.com
+git_password = ******
+
+git_db_passwd = ******

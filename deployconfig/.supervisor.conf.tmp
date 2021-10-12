@@ -1,0 +1,11 @@
+[program:ProjectName-5b3794134d48]
+command   = /home/www/ProjectName-5b3794134d48/env/bin/gunicorn --bind localhost:8000 --workers 5 --worker-class gevent mysite.wsgi:application
+directory = /home/www/ProjectName-5b3794134d48/src/mysite
+user      = root
+
+startsecs = 3
+
+redirect_stderr         = true
+stdout_logfile_maxbytes = 50MB
+stdout_logfile_backups  = 10
+stdout_logfile          = /home/www/ProjectName-5b3794134d48/logs/supervisor.log
